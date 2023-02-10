@@ -29,7 +29,7 @@ public class SolarDoomsday
         System.out.print("Enter the total area of the solar panels: ");
         int area = scanner.nextInt();
 
-        // Call the solution function to find the largest squares
+        // Call the solarDoomsday function to find the largest squares
         ArrayList<Integer> panels = solarDoomsday(area);
         System.out.println("Largest squares: " + panels);
     }
