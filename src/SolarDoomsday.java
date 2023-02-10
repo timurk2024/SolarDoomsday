@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class SolarDoomsday
 {
-    /** This function takes the total area of the solar panels as input and returns an ArrayList
+    /** This method takes the total area of the solar panels as input and returns an ArrayList
     /* of the areas of the largest squares that can be made from the panels.
     */
     public static ArrayList<Integer> solarDoomsday(int area)
@@ -29,7 +29,7 @@ public class SolarDoomsday
         System.out.print("Enter the total area of the solar panels: ");
         int area = scanner.nextInt();
 
-        // Call the solarDoomsday function to find the largest squares
+        // Call the solarDoomsday method to find the largest squares
         ArrayList<Integer> panels = solarDoomsday(area);
         System.out.println("Largest squares: " + panels);
     }
